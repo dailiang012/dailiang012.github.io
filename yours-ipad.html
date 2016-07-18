@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>拉邦接派</title>
+    <script src="./js/flexible_css.debug.js"></script>
+    <script src="./js/flexible.debug.js"></script>
+    <link rel="stylesheet" href="css/style-yours-ipad.css">
+</head>
+<body>
+    <!--分享背景-->
+    <div id="share-bj">
+        <div class="share-pic-box"><img src="./images/share-top.png" alt=""></div>
+    </div>
+    <div id="yours-popup">
+        <div class="popup-content">
+            <div class="close"></div>
+            <!--帮他加分弹窗-->
+            <div id="help-content" class="popup-list">
+                <div class="add-number"><span id="number">+500</span>分</div>
+                <div class="box-padding">
+                    <div class="btn" id="my-login-btn"></div>
+                </div>
+            </div>
+            <!--登录弹窗-->
+            <div id="my-login" class="popup-list">
+                <form action="">
+                    <p>
+                        <label for="phone"></label>
+                        <input type="text" placeholder="请输入手机号" name="phone" id="phone">
+                    </p>
+                    <p>
+                        <label for="password"></label>
+                        <input type="password" placeholder="请输入密码" name="user-password" id="password">
+                    </p>
+                    <p class="get-code">
+                        <label for="code-pic"></label>
+                        <input type="text" placeholder="请输入验证码" name="code-pic" id="code-pic">
+                        <span class="new-code"><img src="./images/thinkyou.png" alt=""></span>
+                    </p>
+                    <p class="prompt">
+                        <span><img src="images/warm-icon.png" alt=""></span>
+                        <span>验证码错误</span>
+                    </p>
+                    <div class="box-padding">
+                        <div class="btn" id="login-btn"></div>
+                        
+                        <!-- 新加注册 -->
+                        <div class="register"><a href="#" title="">立即注册</a></div>
+
+                    </div>
+                </form>
+            </div>
+            <!--登录成功-->
+            <div id="login-true" class="popup-list">
+                <p>恭喜您，您已成功登录！将此页面分享至朋友或朋友圈，就有机会把ipad抱回家哦！</p>
+                <div class="box-padding">
+                    <div class="btn" id="share-btn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="yours-main">
+        <div class="banner"></div>
+        <div class="list01">
+            <div class="list-title">
+                <div class="photo"><img src="./images/list03.png" alt=""></div>
+            目前分数:<span>2000</span>
+            </div>
+            <div class="status" id="get-status"><img src="./images/what-bj.png" alt=""></div>
+            <div class="btn-list">
+                <div id="others" class="btn"></div>
+                <div id="myself" class="btn"></div>
+                <div id="my-home" class="btn"></div>
+                <div class="share"><img src="./images/share.png" alt=""></div>
+            </div>
+        </div>
+        <div class="list02">
+            <div class="list-title"></div>
+            <div class="prize">
+                <ul>
+                    <li>
+                        <div class="left">第一名 <span>ipad</span></div>
+                        <div class="right">1名</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="left">第二名 <span>1000元红包</span></div>
+                        <div class="right">5名</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="left">第三名 <span>500元红包</span></div>
+                        <div class="right">10名</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list03">
+            <div class="list-title">已有<span>4</span>位同志帮你加分</div>
+            <div class="ranking">
+                <div class="ranking01 ranking-list">
+                    <div class="content">
+                        <div class="list-number">1</div>
+                        <div class="user-data">
+                            <div class="photo"><img src="./images/list01.png" alt=""></div>
+                            <div class="name-time">
+                                <div class="name">女妖</div>
+                                <div class="time">2016-6-17 10:53</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="content-status">+500</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="ranking-border"></div>
+                </div>
+                <div class="ranking02 ranking-list">
+                    <div class="content">
+                        <div class="list-number">2</div>
+                        <div class="user-data">
+                            <div class="photo"><img src="./images/list02.png" alt=""></div>
+                            <div class="name-time">
+                                <div class="name">女妖</div>
+                                <div class="time">2016-6-17 10:53</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="content-status">+500</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="ranking-border"></div>
+                </div>
+                <div class="ranking03 ranking-list">
+                    <div class="content">
+                        <div class="list-number">3</div>
+                        <div class="user-data">
+                            <div class="photo"><img src="./images/list03.png" alt=""></div>
+                            <div class="name-time">
+                                <div class="name">女妖</div>
+                                <div class="time">2016-6-17 10:53</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="content-status">+500</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="ranking-border"></div>
+                </div>
+                <div class="ranking04 ranking-list">
+                    <div class="content">
+                        <div class="list-number">4</div>
+                        <div class="user-data">
+                            <div class="photo"><img src="./images/list04.png" alt=""></div>
+                            <div class="name-time">
+                                <div class="name">女妖</div>
+                                <div class="time">2016-6-17 10:53</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="content-status">+500</div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="total"><a href="yours-total.html"><img src="./images/total-text.png" alt=""></a></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="list04">
+            <div class="bj">
+                <div class="list-title"></div>
+                <ul>
+                    <li>1、每有一个用户通过微信分享到自己的朋友圈的加200分。</li>
+                    <li>如：A用户分享B用户的链接，B用户加200分。</li>
+                    <li>2、加分区间100-1000，减分区间1-500。</li>
+                    <li>3、每投资一个标的（一个标的仅限第一次投资）金额大于等于300，加1000分。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        var popup = document.getElementById('yours-popup');
+        /*弹窗整体结构*/
+        var popupList = popup.getElementsByClassName('popup-list');
+        /*三个弹窗*/
+
+        /*帮他加分弹窗*/
+        var help = document.getElementById('help-content');
+        var helpBtn = document.getElementById('my-login-btn');
+
+        /*登录弹窗*/
+        var login = document.getElementById('my-login');
+        var loginBtn = document.getElementById('login-btn');
+
+        /*登录成功后弹窗*/
+        var loginTrue = document.getElementById('login-true');
+
+        /*我也要玩按钮*/
+        helpBtn.onclick = function () {
+            for (var i = 0; i < popupList.length; i++) {
+                popupList[i].style.display = 'none';
+            }
+            login.style.display = 'block';
+        };
+        /*登录按钮*/
+        loginBtn.onclick = function () {
+            for (var i = 0; i < popupList.length; i++) {
+                popupList[i].style.display = 'none';
+            }
+            loginTrue.style.display = 'block';
+        };
+        /*去分享按钮*/
+        document.getElementById('share-btn').onclick = function () {
+            for (var i = 0; i < popupList.length; i++) {
+                popupList[i].style.display = 'none';
+            }
+            popup.style.display = 'none';
+            document.getElementById('share-bj').style.display = 'block';
+        };
+        /*分享弹窗*/
+        document.getElementById('share-bj').onclick = function () {
+            this.style.display = 'none';
+        };
+
+        /*主页面的两个启动按钮*/
+        var btns = document.getElementsByClassName('btn-list')[0];
+        var btn = btns.getElementsByClassName('btn');
+        for (var i = 0; i < btn.length; i++) {
+            btn[0].onclick = function () {
+                popup.style.display = 'block';
+                help.style.display = 'block';
+            };
+            btn[1].onclick = function () {
+                popup.style.display = 'block';
+                login.style.display = 'block';
+            };
+        }
+
+        /*关闭弹窗按钮功能*/
+        var close = popup.getElementsByClassName('close')[0];
+        close.onclick = function () {
+            if (help.style.display == 'block') {
+                var get = document.getElementById('get-status');
+            get.innerHTML = document.getElementById('number').innerHTML;   //替换文字
+            btn[0].style.backgroundImage = 'url(./images/thinkyou.png)';    //替换图片
+        }
+        for (var i = 0; i < popupList.length; i++) {
+            popupList[i].style.display = 'none';
+        }
+        popup.style.display = 'none';
+    };
+
+
+//    var scrollH = document.documentElement.scrollTop;
+var scrollH = document.body.scrollTop;
+scrollH=scrollH+'px';
+console.log(scrollH);
+document.getElementsByClassName('share-pic-box')[0].style.top = scrollH;
+
+
+    /*function getScrollTop() {
+        var D = document;
+        return Math.max(D.body.scrollTop, D.documentElement.scrollTop)
+    }
+    var one=getScrollTop();
+    console.log(one);*/
+</script>
+</body>
+</html>

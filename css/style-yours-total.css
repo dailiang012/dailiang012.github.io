@@ -1,0 +1,84 @@
+.clear {
+  clear: both; }
+
+#yours-main {
+  background: url("../images/yours-bj.jpg") no-repeat center top;
+  background-size: 100% 100%; }
+
+.banner {
+  width: 9.57813rem;
+  height: 7.59375rem;
+  margin: 0 auto;
+  background: url("../images/banner-bj.png") no-repeat center top;
+  background-size: 101% auto; }
+
+.list-title {
+  text-align: center;
+  margin: 0 auto;
+  width: 6.09375rem;
+  height: 1.76563rem;
+  line-height: 100%;
+  font-weight: bolder;
+  color: #0e1a18;
+  background: url("../images/list03.png") no-repeat center bottom;
+  background-size: 100% auto;
+  padding-top: 1.04688rem; }
+  [data-dpr="1"] .list-title {
+    font-size: 15px; }
+  [data-dpr="2"] .list-title {
+    font-size: 30px; }
+  [data-dpr="3"] .list-title {
+    font-size: 45px; }
+
+/*table-start*/
+.ranking-border {
+  width: 9.23438rem;
+  margin: 0 auto;
+  height: 1px;
+  background: url("../images/border-bj.jpg") no-repeat center top;
+  background-size: 100% auto; }
+
+.total-data {
+  padding-left: 0.23438rem;
+  padding-bottom: 0.78125rem;
+  font-weight: bolder; }
+  .total-data span {
+    display: inline-block;
+    text-align: center;
+    color: #eb3811; }
+    [data-dpr="1"] .total-data span {
+      font-size: 12px; }
+    [data-dpr="2"] .total-data span {
+      font-size: 24px; }
+    [data-dpr="3"] .total-data span {
+      font-size: 36px; }
+  .total-data .title span {
+    padding-top: 0.3125rem;
+    line-height: 100%; }
+  .total-data .total-content span {
+    padding-top: 0.3125rem;
+    line-height: 0.78125rem; }
+  .total-data .ranking {
+    width: 1.32813rem; }
+  .total-data .name {
+    width: 2.54688rem; }
+  .total-data .phone {
+    width: 3.51563rem; }
+  .total-data .number {
+    width: 1.76563rem; }
+
+.return {
+  float: right;
+  margin-right: 0.875rem;
+  margin-top: 0.3125rem; }
+  .return a {
+    display: block;
+    width: 2.67188rem;
+    height: 0.40625rem; }
+  .return img {
+    width: 100%;
+    height: 100%; }
+
+/*table-end*/
+
+/*# sourceMappingURL=style-yours-total.css.map */
