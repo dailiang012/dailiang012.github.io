@@ -117,7 +117,7 @@ textarea {
 dt,
 dd {
     display: inline-block;
-    max-width: 68%;
+    max-width: 60%;
     font-size: 9px;
     line-height: 13px;
     color: #e30056;
