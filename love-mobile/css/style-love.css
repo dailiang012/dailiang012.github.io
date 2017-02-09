@@ -50,6 +50,7 @@ textarea {
     background-color: #4cb0ae;
     height: 44px;
     position: fixed;
+    max-width: 640px;
 }
 
 .header_box {
@@ -116,7 +117,7 @@ textarea {
 dt,
 dd {
     display: inline-block;
-    max-width: 71%;
+    max-width: 68%;
     font-size: 9px;
     line-height: 13px;
     color: #e30056;
@@ -141,6 +142,7 @@ dd {
     color: #e30056;
     text-align: left;
     font-weight: bold;
+    padding-bottom: 4px;
 }
 
 .love_explain dt,
