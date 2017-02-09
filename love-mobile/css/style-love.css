@@ -1,0 +1,163 @@
+@charset "UTF-8";
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    /*清除点击默认的高亮效果*/
+    -webkit-box-sizing: border-box;
+    /*以你的border开始计算你的宽度*/
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    /*第二个是手机的一个默认的字体*/
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    /*清除选中效果*/
+    -webkit-appearance: none;
+    /*清楚浏览器默认的样式,比如ios默认的立体按钮效果*/
+}
+
+
+/*container-start*/
+
+.container {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background-color: #4cb0ae;
+    height: 44px;
+    position: fixed;
+}
+
+.header_box {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    height: 44px;
+}
+
+.nav-return {
+    position: absolute;
+    height: inherit;
+    left: 0;
+    top: 0;
+}
+
+.nav-return a {
+    height: inherit;
+    display: block;
+}
+
+.nav-return a:active {
+    background: #419695;
+}
+
+.nav-return img {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+.nav-title {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+#love_main {
+    background: url('../images/love_bj.jpg') no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.placeholder {
+    height: 44px;
+    opacity: 0;
+}
+
+#love_main .text {
+    padding-top: 156px;
+    text-align: center;
+    font-size: 10px;
+    color: #e30056;
+    line-height: 20px;
+}
+
+.love_active_rule {
+    width: 54%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+dt,
+dd {
+    display: inline-block;
+    max-width: 71%;
+    font-size: 9px;
+    line-height: 13px;
+    color: #e30056;
+    vertical-align: top;
+    letter-spacing: 2px;
+}
+
+.love_active_rule span {
+    font-style: italic;
+}
+
+.love_explain {
+    padding-top: 16px;
+    width: 54%;
+    margin: 0 auto;
+    padding-bottom: 22px;
+}
+
+.love_explain p {
+    font-size: 9px;
+    line-height: 12px;
+    color: #e30056;
+    text-align: left;
+    font-weight: bold;
+}
+
+.love_explain dt,
+.love_explain dd {
+    display: inline-block;
+    font-size: 9px;
+    line-height: 12px;
+    color: #e30056;
+}
+.button_invest{
+    padding-bottom: 66px;
+}
+.button_invest a{
+    display: block;
+    width: 26%;
+    height: 53px;
+    background: url(../images/button_bj.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
